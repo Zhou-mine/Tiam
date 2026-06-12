@@ -46,7 +46,6 @@ def menu():
         elif sign == "/":
             fMethhud(n,m)
         print("\033[0m")
-        print("f\n")
 
 def main():
     try:
