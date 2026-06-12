@@ -48,7 +48,10 @@ def menu():
         print("\033[0m")
 
 def main():
-    menu()
-
+    try:
+        menu()
+    except ValueError:
+        print("输入错误!")
+    
 if __name__ == "__main__":
     main()
