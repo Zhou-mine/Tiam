@@ -46,12 +46,13 @@ def menu():
         elif sign == "/":
             fMethhud(n,m)
         print("\033[0m")
+        print("f\n")
 
 def main():
     try:
         menu()
     except ValueError:
         print("输入错误!")
-    
+
 if __name__ == "__main__":
     main()
