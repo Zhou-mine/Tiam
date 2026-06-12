@@ -46,6 +46,7 @@ def menu():
         elif sign == "/":
             fMethhud(n,m)
         print("\033[0m")
+        #vscode
 
 def main():
     try:
